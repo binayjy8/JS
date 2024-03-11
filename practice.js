@@ -1,3 +1,4 @@
 let pencilPrice = 12;
 let eraserPrice = 23;
-console.log("The Total price is : ", pencilPrice + eraserPrice, "rupees.");
+let outPut = "The Total Price is : "+(pencilPrice + eraserPrice)+ " Rupees.";
+console.log(outPut);
