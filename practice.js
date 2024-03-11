@@ -1,10 +1,13 @@
-let color = "purple";
-if(color === "red") {
-    console.log("stop");
-} else if(color === "yellow") {
-    console.log("slow down");
-} else if(color === "green") {
-    console.log("go");
-}else{
-    console.log("You are Blind");
+let size = "M";
+if(size === "XL"){
+    console.log("Price is 250");
+}
+else if(size === "L"){
+    console.log("Price is 200");
+}
+else if(size === "M"){
+    console.log("Price is 150");
+}
+else if(size === "S"){
+    console.log("Price is 100");
 }
