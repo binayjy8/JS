@@ -1,13 +1,12 @@
-let size = "M";
-if(size === "XL"){
-    console.log("Price is 250");
-}
-else if(size === "L"){
-    console.log("Price is 200");
-}
-else if(size === "M"){
-    console.log("Price is 150");
-}
-else {
-    console.log("Price is 100");
+let score = 90;
+
+if (score >= 100) {
+    console.log("Congratulation for  halfcentury");
+    if (score >= 50) {
+        console.log(" Century");
+    } else {
+        console.log("Good try");
+    }
+} else {
+    console.log("hard luck");
 }
