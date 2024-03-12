@@ -24,3 +24,16 @@ if("a") {
 } else {
     console.log("false value");
 }
+
+let color = "red";
+
+switch(color){
+    case "red":
+        console.log("stop");
+        break;
+        case"green":
+        console.log("Go");
+        break;
+        default:
+            console.log("Light is broken");
+}
