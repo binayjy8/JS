@@ -65,3 +65,9 @@ switch(day){
         default:
             console.log("wrong day") 
 }
+
+alert("wrong");
+console.error("this is error");
+console.warn("warning message");
+
+prompt("enter name");
