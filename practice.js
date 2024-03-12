@@ -70,4 +70,5 @@ alert("wrong");
 console.error("this is error");
 console.warn("warning message");
 
-prompt("enter name");
+let theName = prompt("enter name");
+console.log(theName);
