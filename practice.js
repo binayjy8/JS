@@ -18,3 +18,9 @@ if(str[0] === 'a' && str.length>3) {
 } else {
     console.log("Bad String");
 }
+
+if("a") {
+    console.log("true value");
+} else {
+    console.log("false value");
+}
